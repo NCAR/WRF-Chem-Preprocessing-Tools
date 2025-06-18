@@ -1,1 +1,19 @@
+Aircraft Emissions Preprocessor Tool
+
+This IDL code reads the netcdf file baughcum_1999.aircraft.1x1.nc and interpolates emissions onto the WRF grid of interest. 
+
+The "user modify" section is contained in lines 135-165. In this section, one defines where the wrfinput file and data file are located, 
+the name of the domain (d01, d02, d03, etc), date (year, month, day), the time of day for the files (hourly output for 24 hours is the
+current set up), and the maximum height of the anthropogenic emissions. This maximum height for anthropogenic emissions is needed because
+the US EPA NEI contains aircraft emissions and therefore we set aircraft emissions in the output here to zero for heights below the maximum
+height. 
+
+Files created are named 'wrfaircraftchemi_'+domain+'_'+yyyy+'-'+mm+'-'+dd+'_'+hrs+':00:00'. In other words, the same naming protocol is used
+as for wrfchemi files. 
+
+The code is currently set up to create 24 files, one for each hour of day. If 2 12-hour files are desired, there are lines at the bottom of
+the script that are commented out to show you how to combine the individual files into 2 12-hour files using nco commands. That is, 
+/usr/bin/ncrcat wrfaircraftchemi_hour_0* wrfaircraftchemi_hour_10 wrfaircraftchemi_hour_11  wrfaircraftchemi_00z_d02
+/usr/bin/ncrcat wrfaircraftchemi_hour_1[23456789] wrfaircraftchemi_hour_2* wrfaircraftchemi_12z_d01
+
 
