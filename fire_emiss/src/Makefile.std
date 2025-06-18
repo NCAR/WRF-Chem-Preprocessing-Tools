@@ -21,11 +21,11 @@ else
 endif
 
 ifeq ($(FC),pgf90)
-  FFLAGS += -O0 -Mnosave -Ktrap=fp
+  FFLAGS += -O2 -Mnosave -Ktrap=fp
 endif
 
 ifeq ($(FC),gfortran)
-  FFLAGS += -O0 -ffree-line-length-none
+  FFLAGS += -ffree-line-length-none
 endif
 
 ifeq ($(FC),lf95)
