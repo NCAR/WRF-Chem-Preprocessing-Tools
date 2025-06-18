@@ -1,3 +1,4 @@
 UBC: includes one 350MB file
 MEGAN:  input data sets
 EDGAR-HTAP: too large emission files. though might not longer be needed since the newer EDGAR emissions for anthro_emiss are on Zenodo https://zenodo.org/records/6130621#.YhOhDy9w1QI 
+EPA input Emissions: 2014 and 2017 
