@@ -1,3 +1,6 @@
+
+**mozbc**
+
 mozbc creates lateral boundary and initial conditions from global chemistry model output.
 
 NCAR/ACOM has developed a program to create time-varying chemical lateral boundary conditions for WRF-Chem from CAM-chem output. For questions about running mozbc please use our WRF-Chem Discussion Forum contacting wrf-chem-mozbc.
