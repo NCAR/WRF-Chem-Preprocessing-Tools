@@ -1,4 +1,6 @@
-**anthro_emiss** creates anthropogenic emissions files from global emission inventories
+# anthro_emiss 
+
+anthro_emiss creates anthropogenic emissions files from global emission inventories
 
 This is a fortran based preprocessor to create WRF-Chem ready anthropogenic emissions files (wrfchemi__ or wrfchemi_{00z,12z}_) from global inventories on a lat/lon basis. Users are strongly advised to consult the README files before compiling and using the code. See the Download section below.
 
