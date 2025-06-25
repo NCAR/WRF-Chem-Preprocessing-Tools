@@ -24,8 +24,9 @@ E.g. using git a user would issue: git clone git@github.com:NCAR/WRF-Chem-Prepro
   echo "mozbc" >> .git/info/sparse-checkout  </br>
   git pull origin main </br>
 
+## Other-Documents
+This directory contains User Guides for running WRF-Chem with the suite of MOZART chemical mechanisms, an overview presentation on the preprocessing tools, information on online trajectories and the Integrated Reaction Rate Analysis diagnostics as well as instructions and input data for running WRF-Chem with phot_opt=4 (TUV).
 
-The directory **"Other-Documents"** contains User Guides for running WRF-Chem with the suite of MOZART chemical mechanisms, an overview presentation on the preprocessing tools, information on online trajectories and the Integrated Reaction Rate Analysis diagnostics as well as instructions and input data for running WRF-Chem with phot_opt=4 (TUV).
 
 *We ask users of the WRF-Chem preprocessor tools to include in any publications the following acknowledgement:
 "We acknowledge use of the WRF-Chem preprocessor tool {mozbc, fire_emiss, etc.} provided by the Atmospheric Chemistry Observations and Modeling Lab (ACOM) of NCAR."*
