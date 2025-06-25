@@ -6,6 +6,8 @@ This repository includes preprocessing tools for WRF-Chem developed by the Natio
 **epa_anthro_emiss:** Creates anthropogenic emission files from Sparse Matrix Operator Kernel (SMOKE) Modeling System netcdf output  </br>
 **bio_emiss:** Creates biogenic emission input files for use with MEGAN online emissions  </br>
 **fire_emiss:** Creates fire emissions from Fire INventory from NCAR (FINN) input   </br>
+**wesely:** Creates netcdf files needed for calculating dry deposition rates (needed when running WRF-Chem with MOZART schemes)
+**exo_coldens:** Creates netcdf files containing overhead O2 and O3 column densities (needed when running WRF-Chem with MOZART schemes)
 
 Please see the individual README files for more information.   </br>
 
