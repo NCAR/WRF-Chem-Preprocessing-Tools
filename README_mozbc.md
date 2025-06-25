@@ -1,5 +1,5 @@
 
-**mozbc**
+# mozbc
 
 mozbc creates lateral boundary and initial conditions from global chemistry model output.
 
@@ -12,11 +12,11 @@ To obtain CAM-chem output files use the NSF/NCAR ACOM CAM-chem Download page. No
 
 The reference for the CAM-chem output is:
 
-Buchholz, R. R., Emmons, L. K., Tilmes, S., & The CESM2 Development Team. (2019). CESM2.1/CAM-chem Instantaneous Output for Boundary Conditions. UCAR/NCAR - Atmospheric Chemistry Observations and Modeling Laboratory. Subset used† XXX, Accessed* dd mmm yyyy, https://doi.org/10.5065/NMP7-EP60.
+*Buchholz, R. R., Emmons, L. K., Tilmes, S., & The CESM2 Development Team. (2019). CESM2.1/CAM-chem Instantaneous Output for Boundary Conditions. UCAR/NCAR - Atmospheric Chemistry Observations and Modeling Laboratory. Subset used† XXX, Accessed* dd mmm yyyy, https://doi.org/10.5065/NMP7-EP60.
 
 Please fill in the "subset used" with region and/or date of the subset you used (e.g. Lat: -10 to 10, Lon: 100 to 150, September 2015 - February 2016).
 Please fill in the "Accessed" date with the day, month, and year that you last accessed the data (e.g. - 5 Aug 2011).
 
 Near-real-time global chemical forecast output from the WACCM model is also available for use as regional model boundary conditions.
 
-Mapping of WACCM or CAM-chem gas-phase and aerosol species to WRF-Chem chemistry is provided in CESM-WRFchem_aerosols_20190822.pdf.
+Mapping of WACCM or CAM-chem gas-phase and aerosol species to WRF-Chem chemistry is provided in CESM-WRFchem_aerosols_20190822.pdf (see Other-Documents).
