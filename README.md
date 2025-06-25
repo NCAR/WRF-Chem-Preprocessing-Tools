@@ -6,7 +6,7 @@ This repository includes preprocessing tools for WRF-Chem developed by the Natio
 **epa_anthro_emiss:** Creates anthropogenic emission files from Sparse Matrix Operator Kernel (SMOKE) Modeling System netcdf output  </br>
 **bio_emiss:** Creates biogenic emission input files for use with MEGAN online emissions  </br>
 **fire_emiss:** Creates fire emissions from Fire INventory from NCAR (FINN) input   </br>
-**wesely:** Creates netcdf files needed for calculating dry deposition rates (needed when running WRF-Chem with MOZART schemes)
+**wesely:** Creates netcdf files needed for calculating dry deposition rates (needed when running WRF-Chem with MOZART schemes) </br>
 **exo_coldens:** Creates netcdf files containing overhead O2 and O3 column densities (needed when running WRF-Chem with MOZART schemes)
 
 Please see the individual README files for more information.   </br>
@@ -27,7 +27,7 @@ E.g. using git a user would issue: git clone git@github.com:NCAR/WRF-Chem-Prepro
   git pull origin main </br>
 
 ## Other-Documents
-This directory contains User Guides for running WRF-Chem with the suite of MOZART chemical mechanisms, an overview presentation on the preprocessing tools, information on online trajectories and the Integrated Reaction Rate Analysis diagnostics as well as instructions and input data for running WRF-Chem with phot_opt=4 (TUV).
+This directory contains User Guides for running WRF-Chem with the suite of MOZART chemical mechanisms, an overview presentation on the preprocessing tools, mozbc guidelines for mapping CESM aersols to WRF-Chem, information on online trajectories and the Integrated Reaction Rate Analysis diagnostics as well as instructions and input data for running WRF-Chem with phot_opt=4 (TUV).
 
 
 *We ask users of the WRF-Chem preprocessor tools to include in any publications the following acknowledgement:
