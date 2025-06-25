@@ -1,4 +1,4 @@
-**weseley and exo_coldens**
+# weseley and exo_coldens
 
 The wesely utility, a single cpu code, reads WRF and Mozart
         input files and produces netcdf files, on a per WRF domain basis,
