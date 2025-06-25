@@ -1,4 +1,6 @@
-**fire_emis** creates fire emissions files for use with the online plumerise in WRF-Chem and also for CAM-Chem
+# fire_emis
+
+fire_emis creates fire emissions files for use with the online plumerise in WRF-Chem and also for CAM-Chem
 
 Fortran based preprocessor for creating fire emission inputs for WRF-Chem when running with plumerise and also for creating fire emission inputs for the CAM-Chem global models. The fire emissions inventory is based on the Fire Inventory from NCAR (FINN).
 
