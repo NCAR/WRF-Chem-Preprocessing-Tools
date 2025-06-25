@@ -1,4 +1,4 @@
-**EPA_anthro_emiss**
+# EPA_anthro_emiss
 
 The tool allows users to create WRF-Chem compatible hourly anthropogenic emission input files from Sparse Matrix Operator Kernel (SMOKE) Modeling System netcdf output. Please consult the EPA_ANTHRO_EMIS User Guide and the README included in the download before using the tool.  A sample input data set containing the U.S. EPA 2014v2 emissions is available for download at https://www.acom.ucar.edu/Models/EPA/. 
 For use with the U.S. EPA 2014v2 emissions, users also will need to place the sectorlist_2014fd_nata file into the data directory. 
